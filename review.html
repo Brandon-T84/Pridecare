@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<div class="contact-container">
+  <div class="left-col">
+ 
+  </div>
+  <div class="right-col">
+    <div class="theme-switch-wrapper">
+  
+</div>
+    
+    <h1>Leave a review</h1>
+    <a href="loginmain.html"><img class="homebtn"style="width: 75px;height: 75px;position: absolute;right: 25px;top:50px"src="homebtn.png"></a>
+    
+    <form id="contact-form"  action="https://formspree.io/f/xgeryblw"
+  method="POST">
+ 
+      <label for="email">Email Address</label>
+  <input type="email" id="email" name="email" placeholder="Your Email Address" required>
+      <label for="message">Your Review (Include the name of the doctor you are reviewing and a rating out of 5)</label>
+  <textarea rows="6" placeholder="Your Review" id="message" name="message" required></textarea>
+      <!--<a href="javascript:void(0)">--><button type="submit" id="submit" name="submit">Send</button><!--</a>-->
+  
+</form>
+<div id="error"></div>
+<div id="success-msg"></div>
+  </div>
+</div>
+   <link rel="stylesheet" type="text/css" href="review.css">
+</html>

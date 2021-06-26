@@ -1,0 +1,665 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url(https://fonts.googleapis.com/css?family=Lato:100,300,400,700);
+@import url(https://raw.github.com/FortAwesome/Font-Awesome/master/docs/assets/css/font-awesome.min.css);
+body, html {
+  height: 90%;
+  margin: 0;
+    font-family: 'Montserrat', sans-serif;
+color:black;
+background-color: rgba(185,202,184,255);
+ 
+}
+
+.bg {
+  /* The image used */
+  background-image: url("backdrop2.jpg");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.logo1 {
+
+  left: 50%;
+margin-left:-10px;
+top:250px;
+position:absolute;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.homebtn{
+
+  transition: transform .5s ease;
+
+}
+
+.homebtn:hover {
+
+
+  transition: transform .5s ease;
+  transform: scale(1.35);
+}
+#welcome {
+left: 50px;
+
+top:125px;
+position:absolute;
+font-size: 40px;
+font-weight: 125;
+
+}
+.box {
+  left: 50%;
+    width: 500px;
+    height: 750px;
+top: 350px;
+    background-color: white;
+    box-shadow: 0 0 50px -20px #000;
+    border-radius: 2%;
+
+    overflow: hidden;
+    position:absolute;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+#headerw {
+
+position: absolute;
+left: 50px;
+font-size: 40px;
+font-weight: 125;
+top:50px;
+}
+
+#city {
+left: 50%;
+margin-left:400px;
+top:250px;
+position:absolute;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+
+}
+
+#btnuser {
+left: 50%;
+margin-left:-10px;
+top:425px;
+position:absolute;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  transition: transform .5s ease;
+}
+
+#btnuser:hover {
+cursor: pointer;
+
+   transition: transform .5s ease;
+  transform: scale(1.35) translateX(-40%) translateY(-40%);
+
+}
+
+#wrap {
+  margin: 50px 100px;
+  display: inline-block;
+  position: relative;
+  height: 60px;
+  float: right;
+  padding: 0;
+  position: relative;
+}
+
+
+
+.doctorshead {
+
+
+  position: absolute;
+  top:475px;
+position:absolute;
+left: 50px;
+font-size: 30px;
+font-weight: 125;
+}
+
+
+#div1 {
+left: 50%;
+margin-left:400px;
+top:650px;
+position:absolute;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+
+
+
+}
+
+h1 {
+
+  font-size: 30px;
+font-weight: 125;
+}
+
+#i1 {
+position: absolute;
+  top:775px;
+position:absolute;
+left: 75px;
+
+
+
+}
+
+#i1:hover{
+
+  cursor: pointer;
+
+}
+
+#i1s {
+position: absolute;
+  top:825px;
+position:absolute;
+left: 75px;
+
+
+}
+
+#i2 {
+left: 50%;
+
+top:785px;
+position:absolute;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+
+
+}
+
+#i2:hover {
+
+  cursor: pointer;
+}
+
+#i2s {
+left: 50%;
+
+top:835px;
+position:absolute;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+
+}
+
+
+#i3 {
+position: absolute;
+  top:775px;
+position:absolute;
+right: 75px;
+
+
+
+}
+
+#i3:hover{
+
+  cursor: pointer;
+}
+
+#i3s {
+position: absolute;
+  top:825px;
+position:absolute;
+right: 75px;
+
+
+}
+
+#i4 {
+position: absolute;
+  top:1175px;
+position:absolute;
+left: 75px;
+
+
+
+}
+
+#i4:hover {
+
+  cursor: pointer;
+}
+
+#i4s {
+position: absolute;
+  top:1225px;
+position:absolute;
+left: 75px;
+
+
+}
+
+
+#i5 {
+left: 50%;
+
+top:1200px;
+position:absolute;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+
+
+}
+
+#i5:hover{
+
+  cursor: pointer;
+}
+
+#i5s {
+left: 50%;
+
+top:1250px;
+position:absolute;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+
+}
+
+
+
+#i6 {
+position: absolute;
+  top:1175px;
+position:absolute;
+right: 75px;
+
+
+
+}
+
+#i6:hover{
+
+  cursor: pointer;
+}
+
+#i6s {
+position: absolute;
+  top:1225px;
+position:absolute;
+right: 75px;
+
+
+}
+
+#i7 {
+position: absolute;
+  top:1600px;
+position:absolute;
+left: 75px;
+
+
+
+}
+
+#i7:hover{
+
+  cursor: pointer;
+}
+
+#i7s {
+position: absolute;
+  top:1650px;
+position:absolute;
+left: 75px;
+
+
+}
+
+#i8 {
+left: 50%;
+
+top:1625px;
+position:absolute;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+
+
+}
+
+#i8:hover{
+
+  cursor: pointer;
+}
+
+#i8s {
+left: 50%;
+
+top:1675px;
+position:absolute;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+
+
+
+
+}
+
+#i9 {
+position: absolute;
+  top:1600px;
+position:absolute;
+right: 75px;
+
+
+
+}
+
+#i9:hover{
+
+  cursor: pointer;
+}
+
+#i9s {
+position: absolute;
+  top:1650px;
+position:absolute;
+right: 75px;
+
+
+}
+
+
+.circular--landscape {
+
+  display: inline-block;
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.circular--landscape img {
+  width: auto;
+  height: 100%;
+  margin-left: -50px;
+}
+
+.img1 {
+
+  position: absolute;
+
+  top: 555px;
+  left: 75px;
+}
+
+
+.img2{
+
+left: 50%;
+
+top:655px;
+position:absolute;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+
+}
+
+.imgprof{
+
+left: 50%;
+margin-left: 5px;
+top:215px;
+position:absolute;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+
+}
+
+#name {
+
+
+top:15px;
+position: relative;
+font-size: 24px !important;
+margin-left: -20px;
+text-align: center;
+}
+
+#office {
+
+left: 50%;
+top:45px;
+position: relative;
+font-size: 18px !important;
+ -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+ 
+
+}
+
+#officea {
+
+left: 50%;
+top:300px;
+position: absolute;
+font-size: 18px !important;
+ -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  position: absolute;
+  margin-left: -175px;
+}
+
+#emaila {
+
+left: 50%;
+top:350px;
+position: absolute;
+font-size: 18px !important;
+ -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  position: absolute;
+  margin-left: -175px;
+}
+
+#professiona {
+
+left: 50%;
+top:400px;
+position: absolute;
+font-size: 18px !important;
+ -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  position: absolute;
+  margin-left: -175px;
+}
+
+#email {
+
+left: 50%;
+top:58px;
+position: relative;
+font-size: 18px !important;
+ -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+ 
+
+}
+
+#profession {
+
+left: 50%;
+top:76px;
+position: relative;
+font-size: 18px !important;
+ -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+ margin-left: 10px;
+
+}
+
+
+#numbera {
+
+left: 50%;
+top:450px;
+position: absolute;
+font-size: 18px !important;
+ -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  position: absolute;
+  margin-left: -165px;
+}
+
+#number {
+
+left: 50%;
+top:93px;
+position: relative;
+font-size: 18px !important;
+ -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+ margin-left: 25px;
+
+}
+
+
+.img3 {
+
+position: absolute;
+
+  top: 555px;
+  right: 75px;
+
+}
+
+.img4 {
+
+  position: absolute;
+
+  top: 955px;
+  left: 75px;
+
+}
+
+
+.img5{
+
+left: 50%;
+
+top:1055px;
+position:absolute;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+
+}
+
+.img6 {
+
+  position: absolute;
+
+  top: 955px;
+  right: 50px;
+
+}
+
+.img7 {
+
+  position: absolute;
+
+  top: 1355px;
+  left: 75px;
+
+}
+
+.img8{
+
+left: 50%;
+
+top:1455px;
+position:absolute;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+
+}
+
+.img9 {
+
+  position: absolute;
+
+  top: 1355px;
+  right: 75px;
+
+}
+
+.email {
+
+
+
+  position: absolute;
+left: 50%;
+
+top:655px;
+position:absolute;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+
+width: 86px;
+
+height: 86px;
+   transition: transform .5s ease;
+   margin-left: -100px;
+}
+
+.email:hover {
+
+
+cursor: pointer;
+
+   transition: transform .5s ease;
+  transform: scale(1.25) translateX(-40%) translateY(-40%);
+
+}
+
+.review {
+
+
+
+  position: absolute;
+left: 50%;
+
+top:655px;
+position:absolute;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+
+width: 86px;
+
+height: 86px;
+   transition: transform .5s ease;
+   margin-left: 100px;
+}
+
+.review:hover {
+
+
+cursor: pointer;
+
+   transition: transform .5s ease;
+  transform: scale(1.25) translateX(-40%) translateY(-40%);
+
+}
+
+
+
+

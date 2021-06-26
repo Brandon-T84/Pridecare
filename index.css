@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url(https://fonts.googleapis.com/css?family=Lato:100,300,400,700);
+@import url(https://raw.github.com/FortAwesome/Font-Awesome/master/docs/assets/css/font-awesome.min.css);
+body, html {
+  height: 100%;
+  margin: 0;
+    font-family: 'Montserrat', sans-serif;
+color:black;
+ 
+}
+
+.bg {
+  /* The image used */
+  background-image: url("backdropfin - Copy.jpg");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.logo1 {
+
+  left: 50%;
+margin-left:-10px;
+top:250px;
+position:absolute;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+#welcome {
+left: 50px;
+
+top:125px;
+position:absolute;
+font-size: 40px;
+font-weight: 125;
+
+}
+
+#headerw {
+
+position: absolute;
+left: 50px;
+font-size: 40px;
+font-weight: 125;
+top:50px;
+}
+
+#city {
+left: 50%;
+margin-left:400px;
+top:250px;
+position:absolute;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+
+}
+
+#btnuser {
+left: 50%;
+margin-left:-10px;
+top:425px;
+position:absolute;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  transition: transform .5s ease;
+}
+
+#btnuser:hover {
+cursor: pointer;
+
+   transition: transform .5s ease;
+  transform: scale(1.35) translateX(-40%) translateY(-40%);
+
+}
+
+#wrap {
+  margin: 50px 100px;
+  display: inline-block;
+  position: relative;
+  height: 60px;
+  float: right;
+  padding: 0;
+  position: relative;
+}
+
+input[type="text"] {
+  height: 60px;
+  font-size: 55px;
+  display: inline-block;
+  font-family: "Lato";
+  font-weight: 100;
+  border: none;
+  outline: none;
+  color: #555;
+  padding: 3px;
+  padding-right: 60px;
+  width: 0px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: none;
+  z-index: 3;
+  transition: width .4s cubic-bezier(0.000, 0.795, 0.000, 1.000);
+  cursor: pointer;
+}
+
+input[type="text"]:focus:hover {
+  border-bottom: 1px solid #BBB;
+}
+
+input[type="text"]:focus {
+  width: 700px;
+  z-index: 1;
+  border-bottom: 1px solid #BBB;
+  cursor: text;
+}
+input[type="submit"] {
+  height: 67px;
+  width: 63px;
+  display: inline-block;
+  color:red;
+  float: right;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAADNQTFRFU1NT9fX1lJSUXl5e1dXVfn5+c3Nz6urqv7+/tLS0iYmJqampn5+fysrK39/faWlp////Vi4ZywAAABF0Uk5T/////////////////////wAlrZliAAABLklEQVR42rSWWRbDIAhFHeOUtN3/ags1zaA4cHrKZ8JFRHwoXkwTvwGP1Qo0bYObAPwiLmbNAHBWFBZlD9j0JxflDViIObNHG/Do8PRHTJk0TezAhv7qloK0JJEBh+F8+U/hopIELOWfiZUCDOZD1RADOQKA75oq4cvVkcT+OdHnqqpQCITWAjnWVgGQUWz12lJuGwGoaWgBKzRVBcCypgUkOAoWgBX/L0CmxN40u6xwcIJ1cOzWYDffp3axsQOyvdkXiH9FKRFwPRHYZUaXMgPLeiW7QhbDRciyLXJaKheCuLbiVoqx1DVRyH26yb0hsuoOFEPsoz+BVE0MRlZNjGZcRQyHYkmMp2hBTIzdkzCTc/pLqOnBrk7/yZdAOq/q5NPBH1f7x7fGP4C3AAMAQrhzX9zhcGsAAAAASUVORK5CYII=) center center no-repeat;
+  text-indent: -10000px;
+  border: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 2;
+  cursor: pointer;
+  opacity: 0.4;
+  cursor: pointer;
+  transition: opacity .4s ease;
+}
+
+input[type="submit"]:hover {
+  opacity: 0.8;
+}
+
+.doctorshead {
+
+
+  position: absolute;
+  top:425px;
+position:absolute;
+left: 50px;
+font-size: 30px;
+font-weight: 125;
+}
+
+
+.patientbtn {
+
+width: 106px;
+height: 106px;
+
+position: absolute;
+left: 50%;
+margin-left: -200px;
+top:400px;
+position:absolute;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+   transition: transform .5s ease;
+}
+
+.patientbtn:hover {
+
+cursor: pointer;
+
+   transition: transform .5s ease;
+  transform: scale(1.35) translateX(-40%) translateY(-40%);
+}
+
+.doctorbtn {
+
+width: 76px;
+height: 76px;
+
+position: absolute;
+left: 50%;
+
+top:400px;
+position:absolute;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+   transition: transform .5s ease;
+}
+
+.doctorbtn:hover {
+
+cursor: pointer;
+
+   transition: transform .5s ease;
+  transform: scale(1.35) translateX(-40%) translateY(-40%);
+}
+
+.learnbtn {
+
+width: 86px;
+height: 86px;
+
+position: absolute;
+left: 50%;
+margin-left: 200px;
+top:400px;
+position:absolute;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+   transition: transform .5s ease;
+
+}
+
+
+
+.learnbtn:hover {
+
+cursor: pointer;
+
+   transition: transform .5s ease;
+  transform: scale(1.35) translateX(-40%) translateY(-40%);
+}
+
